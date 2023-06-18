@@ -1,0 +1,38 @@
+   0 ls
+   1 ls -l
+   2 cd
+   3 ls -la
+   4 cd ..
+   5 ls
+   6 cd tmp
+   7 touch adam.txt
+   8 ls
+   9 cd ..
+  10 cd home
+  11 mkdir humans
+  12 ls
+  13 cd ..
+  14 ls
+  15 cp /tmp/adam.txt /humans/adam.txt
+  16 cp tmp/adam.txt /home/humans/adam.txt
+  17 cd home
+  18 cd humans
+  19 ls
+  20 cd ..
+  21 cd tmp
+  22 touch evA.txt
+  23 ls
+  24 cd
+  25 cd ..
+  26 mv /tmp/evA.txt /opt/eve.txt
+  27 ls
+  28 cd opt
+  29 ls
+  30 cd ..
+  31 mv /opt/eve.txt /home/humans/eve.txt
+  32 cd home
+  33 cd humans
+  34 ls
+  35 history
+  36 cd ..
+  37 history > eve_evA.txt

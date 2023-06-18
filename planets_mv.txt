@@ -1,0 +1,60 @@
+   0 ls
+   1 cd ..
+   2 ls
+   3 cd home
+   4 mkdir planets
+   5 ls
+   6 cd ..
+   7 ls
+   8 cd opt
+   9 touch Mercury.txt
+  10 ls
+  11 touch Venus.txt
+  12 touch Mars.txt
+  13 touch Jupiter.txt
+  14 ls
+  15 cd ..
+  16 mv /opt/Jupiter.txt /planets/jupiter.txt
+  17 cd /planets
+  18 cd planets
+  19 cd /home
+  20 cd /planets
+  21 cd planets
+  22 ls
+  23 cd ..
+  24 ls
+  25 cd planets
+  26 cd ..
+  27 cd opt
+  28 ls
+  29 cd ..
+  30 mv /opt/Jupiter.txt /planets/Jupiter.txt
+  31 cd home
+  32 ls
+  33 cd planets
+  34 ls
+  35 cd ..
+  36 ls
+  37 cd planets
+  38 ls
+  39 tree
+  40 cd ..
+  41 cd opt
+  42 ls
+  43 cd ..
+  44 ls
+  45 mv opt Jupiter.txt /home/planets/Jupiter.txt
+  46 mv /opt/Jupiter.txt /home/planets/Jupiter.txt
+  47 cd home
+  48 ls
+  49 cd planets
+  50 ls
+  51 cd ..
+  52 mv /opt/Mars.txt /home/planets/Mars.txt
+  53 mv /opt/Mercury.txt /home/planets/Mercury.txt
+  54 mv /opt/Venus.txt /home/planets/Venus.txt
+  55 cd home
+  56 cd planets
+  57 ls
+  58 cd ..
+  59 history > planets_mv.txt

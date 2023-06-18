@@ -1,0 +1,29 @@
+   0 ls
+   1 cd
+   2 cd ..
+   3 ls
+   4 cd home
+   5 mkdir animals
+   6 ls
+   7 cd animals/
+   8 mkdir dogs cats fish
+   9 ls
+  10 cd cats
+  11 touch garfield.txt
+  12 cd ..
+  13 cd dogs
+  14 touch pluto.txt
+  15 cd ..
+  16 cd fish
+  17 touch nemo.txt
+  18 cd ..
+  19 tree
+  20  history
+  21 cd ..
+  22 history
+  23 cd ..
+  24 history > animals.txt
+  25 ls
+  26 cd home
+  27 ls
+  28 history > history.txt
